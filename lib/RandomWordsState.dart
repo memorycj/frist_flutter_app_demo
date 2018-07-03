@@ -36,7 +36,7 @@ class RandomWordsState extends State<RandomWords> {
         });
   }
 
-  Widget _buildRow(WordPair pair) {
+  Widget _buildRow(WordPair pair) {t
     final isSaved = _saved.contains(pair);
 
     return ListTile(
